@@ -1,26 +1,22 @@
-let interestRate = 0.3;
-interestRate = 1;
-console.log(interestRate);
 
-let name = "Crystal"; //String Literal
-let age = 29; //number literal
-let isApproved = true; //boolean literal
-let firstName = undefined;
-let lastName = null; 
- 
-let person = {
-    name: "Crystal",
-    age: 29
-};
+// // Performing a task
+// function greet (name, lastName) {
+//     console.log("Hello " + name + " " + lastName)
+// }
 
-//Dot Notation
-person.name= "John";
+// //Calculates a value
+// function  square(number) {
+//     return number * number;
+// }
 
-// Bracket Notation
-let selection = "name";
-person[selection] = "Mary";
+// console.log(square(2));
 
-console.log(person.name);
+let x = 10;
+let y = 3;
 
-let selectedColors = ["red", "blue"];
-console.log(selectedColors[0])
+console.log(x + y);
+console.log(x - y);
+console.log(x / y);
+console.log(x * y);
+console.log(x ** y);
+console.log(x % y)
